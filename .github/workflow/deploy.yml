@@ -2,6 +2,7 @@
 name: Deploy
 # 觸發時機，當推送到分支 master 時
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
 # 執行的工作
